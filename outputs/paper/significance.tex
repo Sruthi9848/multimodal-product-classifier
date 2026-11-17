@@ -1,0 +1,15 @@
+\begin{tabular}{llrrrrrrl}
+\toprule
+Model A & Model B & Acc A & Acc B & A right, B wrong & A wrong, B right & p & p (Holm) & Significant (α=0.05) \\
+\midrule
+lora\_multimodal & lora\_text & 99.0873 & 99.1238 & 6 & 7 & 1.0000 & 1.0000 & no \\
+lora\_multimodal & baseline\_text & 99.0873 & 99.3063 & 5 & 11 & 0.2101 & 0.8405 & no \\
+lora\_text & baseline\_text & 99.1238 & 99.3063 & 3 & 8 & 0.2266 & 0.8405 & no \\
+lora\_multimodal & baseline\_multimodal & 99.0873 & 97.6269 & 46 & 6 & 0.0000 & 0.0000 & yes \\
+lora\_image & baseline\_image & 96.4221 & 83.8627 & 380 & 36 & 0.0000 & 0.0000 & yes \\
+lora\_multimodal\_masked & lora\_text\_masked & 98.2840 & 82.5119 & 445 & 13 & 0.0000 & 0.0000 & yes \\
+lora\_multimodal\_masked & baseline\_text\_masked & 98.2840 & 83.0960 & 433 & 17 & 0.0000 & 0.0000 & yes \\
+lora\_text\_masked & baseline\_text\_masked & 82.5119 & 83.0960 & 115 & 131 & 0.3389 & 0.8405 & no \\
+lora\_multimodal\_masked & lora\_image & 98.2840 & 96.4221 & 61 & 10 & 0.0000 & 0.0000 & yes \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Large or regenerated data
+data/raw/
+data/processed/*.npy
+
+# Keep only the three main models
+outputs/checkpoints/*
+!outputs/checkpoints/lora_multimodal.pt
+!outputs/checkpoints/lora_text.pt
+!outputs/checkpoints/lora_image.pt
+
+# Paper: upload only after submission
+main.tex
+*.pdf
+
+# Other
+*.zip
+.DS_Store

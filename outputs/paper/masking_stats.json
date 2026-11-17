@@ -1,0 +1,42 @@
+{
+  "names_changed_pct": 92.3329682365827,
+  "words_removed_pct": 19.527122793454453,
+  "names_empty_pct": 0.0,
+  "avg_words_before": 5.667031763417306,
+  "avg_words_after": 4.5604235122307415,
+  "examples": [
+    {
+      "original": "puma men pack of 3 socks",
+      "masked": "puma men pack of 3"
+    },
+    {
+      "original": "lino perros women solid beige wallet",
+      "masked": "lino perros women solid beige"
+    },
+    {
+      "original": "fossil men quartz black dial chronograph watch ch2803",
+      "masked": "fossil men quartz black dial chronograph ch2803"
+    },
+    {
+      "original": "nike men as squad fleece fz hoody navy blue sweatshirts",
+      "masked": "nike men as squad fleece fz hoody navy blue"
+    },
+    {
+      "original": "united colors of benetton women washed black jeans",
+      "masked": "united colors of benetton women washed black"
+    },
+    {
+      "original": "fossil men quartz black dial chronograph watch fs4648",
+      "masked": "fossil men quartz black dial chronograph fs4648"
+    },
+    {
+      "original": "fila men s cameo black shoe",
+      "masked": "fila men s cameo black"
+    },
+    {
+      "original": "puma women soleil black shoe",
+      "masked": "puma women soleil black"
+    }
+  ],
+  "num_category_words": 220
+}
